@@ -1,1 +1,3 @@
-fortunes <-
+fortunes <- function() {
+
+}
