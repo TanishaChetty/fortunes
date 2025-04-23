@@ -1,8 +1,9 @@
 Package: fortunes
-Title: What the Package Does (One Line, Title Case)
+Title: A Simple Package to Give You a Fortune
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+    person("Tanisha", "Chetty", , "tchetty@smith.edu", role = c("aut", "cre"))
+    person("Lorelei", "Barnum", , "lbarnum@smith.edu", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
