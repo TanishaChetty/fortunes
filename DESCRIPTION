@@ -1,5 +1,5 @@
 Package: fortunes
-Title: A Simple Package to Give You a Fortune
+Title: Simple Package to Give You a Fortune
 Version: 0.0.0.9000
 Authors@R: 
     person("Tanisha", "Chetty", , "tchetty@smith.edu", role = c("aut", "cre"))

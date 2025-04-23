@@ -1,1 +1,1 @@
-fortunes <-
+#fortunes <-
