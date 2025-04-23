@@ -1,5 +1,5 @@
 Package: fortunes
-Title: Simple Package to Give You a Fortune
+Title: A Simple Package to Give You a Fortune
 Version: 0.0.0.9000
 Authors@R: 
     person("Tanisha", "Chetty", , "tchetty@smith.edu", role = c("aut", "cre"))
@@ -9,3 +9,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+URL: https://github.com/TanishaChetty/fortunes
+BugReports: https://github.com/TanishaChetty/fortunes/issues
