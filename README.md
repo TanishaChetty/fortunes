@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of fortunes is to read your fortune from the word you select
-from the options.
+The goal of fortunes is to give the user a fortune based on the set of
+preset words they choose.
 
 ## Installation
 
@@ -19,13 +19,14 @@ You can install the development version of fortunes from
 pak::pak("TanishaChetty/fortunes")
 ```
 
-## Example
+## Usage
 
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(fortunes)
-## basic example code
+
+#fortunes()
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
