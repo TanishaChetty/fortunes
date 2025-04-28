@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of fortunes is to give the user a fortune based on the set of
-preset words they choose.
+The goal of fortunes is for the user to select a word out of the
+provided selection and then receive a fortune.
 
 ## Installation
 
