@@ -6,6 +6,9 @@
 \usage{
 fortunes()
 }
+\value{
+A string that contains your fortune
+}
 \description{
 Given an input, we give you a fortune.
 }
