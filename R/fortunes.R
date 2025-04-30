@@ -21,7 +21,7 @@ fortunes <- function() {
   }
 
   x <- sample(1:50, size = 1)
-  return(fortune_data[x])
+  return(fortune_data[x,])
 
 }
 
