@@ -24,9 +24,10 @@ pak::pak("TanishaChetty/fortunes")
 When using the `fortunes()` function, make sure to **not** add an
 argument. An argument is unneeded and will throw an error! The function
 will give you two prompts one after another in which you will select a
-word out of those provided for both of them. From there, the function
-will give you a fortune from the built-in data set `fortunes`. All you
-need to do to properly run the function is shown below:
+word out of those provided for both of them. Make note that it is case
+sensitive. From there, the function will give you a fortune from the
+built-in data set `fortunes`. All you need to do to properly run the
+function is shown below:
 
 ``` r
 library(fortunes)
