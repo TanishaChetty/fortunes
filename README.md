@@ -7,7 +7,7 @@
 <!-- badges: end -->
 
 The goal of fortunes is for the user to select a word out of the
-provided selection and then receive a fortune.
+provided selections and then receive a fortune.
 
 ## Installation
 
@@ -21,34 +21,20 @@ pak::pak("TanishaChetty/fortunes")
 
 ## Usage
 
-This is a basic example which shows you how to solve a common problem:
+When using the `fortunes()` function, make sure to **not** add an
+argument. An argument is unneeded and will throw an error! The function
+will give you two prompts one after another in which you will select a
+word out of those provided for both of them. From there, the function
+will give you a fortune from the built-in data set `fortunes`. All you
+need to do to properly run the function is shown below:
 
 ``` r
 library(fortunes)
-
-#fortunes()
+fortunes()
+#> GET YOUR FORTUNE TOLD!!! Enter one of the following
+#>                  words: luck, treasure, omen, destiny... 
+#> Enter one of the following words:
+#>                       sparkle, unicorn, glitter, rainbow...
+#> Enter one of the following words:
+#>                       sparkle, unicorn, glitter, rainbow...
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
