@@ -10,5 +10,8 @@ fortunes()
 A string that contains your fortune
 }
 \description{
-Given an input, we give you a fortune.
+This function has no function argument. Call the function and follow the interactive instructions to get a fortune.
+}
+\examples{
+fortunes()
 }
