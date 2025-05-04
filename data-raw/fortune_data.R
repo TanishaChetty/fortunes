@@ -1,5 +1,5 @@
 ## code to prepare `fortune_data` dataset goes here
-
+library(rvest)
 fortune <- read_html("http://www.fortunecookiemessage.com/archive.php")
 
 fortune_data <- fortune |>
