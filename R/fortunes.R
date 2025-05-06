@@ -2,8 +2,6 @@
 #' @description
 #' This function has no function argument. Call the function and follow the interactive instructions to get a fortune.
 #' @importFrom stringr str_length
-#' @importFrom rvest html_elements
-#' @importFrom rvest html_text2
 #' @returns A string that contains your fortune
 #' @examples
 #' fortunes()
