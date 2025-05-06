@@ -14,12 +14,15 @@ Imports:
     stringr
 URL: https://github.com/TanishaChetty/fortunes
 BugReports: https://github.com/TanishaChetty/fortunes/issues
+Imports: 
+    stringr
 Depends: 
     R (>= 3.5)
 LazyData: true
 Suggests: 
     knitr,
     rmarkdown,
+    rvest,
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
