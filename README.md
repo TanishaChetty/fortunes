@@ -30,7 +30,9 @@ All you need to do to properly run the function is shown below:
 
 ``` r
 library(fortunes)
-#fortunes()
+fortunes()
+#> GET YOUR FORTUNE TOLD!!! Enter one of the following words: luck, treasure, omen, destiny...
+#> Error in fortunes(): Woah! Try one of the words listed above maybe...
 ```
 
 If you wish to use your own words you can do the following:

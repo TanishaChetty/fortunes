@@ -9,7 +9,8 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  out.width = "100%",
+  error = TRUE
 )
 ```
 
@@ -35,7 +36,7 @@ When using the `fortunes()` function an argument is unneeded, but is an option! 
 
 ```{r example}
 library(fortunes)
-#fortunes()
+fortunes()
 ```
 
 If you wish to use your own words you can do the following:
