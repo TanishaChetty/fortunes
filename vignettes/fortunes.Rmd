@@ -31,7 +31,7 @@ fortunes()
 The alternative method is to select three words yourself. The function will use your last word's length divided by two's remainder and based on if it is equal to zero or not and then assigning a certain part of the data set that it will randomly choose a fortune string from. Overall, it's very similar to the above method. For example, lets use the words lucky, rad, and naughty!
 
 ```{r}
-#fortune(fortuney_words = "lucky", awesome_words = "rad", evil_words = "naughty")
+fortune(fortuney_words = "lucky", awesome_words = "rad", evil_words = "naughty")
 ```
 
 
