@@ -4,7 +4,7 @@
 \alias{fortunes}
 \title{Fortune Teller}
 \usage{
-fortunes()
+fortunes(fortuney_words = NULL, awesome_words = NULL, evil_words = NULL)
 }
 \value{
 A string that contains your fortune
