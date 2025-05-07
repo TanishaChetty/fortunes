@@ -1,5 +1,3 @@
-utils::globalVariables("fortune_data")
-
 #' @title Fortune Teller
 #' @description
 #' This function doesn't need a function argument. Call the function and follow the interactive
@@ -11,6 +9,8 @@ utils::globalVariables("fortune_data")
 #' @returns A string that contains your fortune
 #' @examples
 #' fortunes(fortuney_words = "luck", awesome_words = "sparkle", evil_words = "fire")
+#' #For interactive use, run the below function
+#' \dontrun{fortune()}
 #' @export
 #'
 
@@ -42,6 +42,6 @@ fortunes <- function(fortuney_words = NULL, awesome_words = NULL, evil_words = N
     x <- sample(26:50, size = 1)
     }
 
-  return(fortune_data[x, ])
+  return(fortunes::fortune_data[x, ])
 
 }

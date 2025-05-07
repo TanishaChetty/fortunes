@@ -22,4 +22,6 @@ instructions to get a fortune. If you want to use arguments you can choose up to
 }
 \examples{
 fortunes(fortuney_words = "luck", awesome_words = "sparkle", evil_words = "fire")
+#For interactive use, run the below function
+\dontrun{fortune()}
 }
