@@ -2,3 +2,4 @@
 
 export(fortunes)
 importFrom(stringr,str_length)
+importFrom(utils,globalVariables)
