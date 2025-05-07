@@ -16,17 +16,24 @@ knitr::opts_chunk$set(
 
 ## Fortune Telling
 
-The main function of the fortunes package is to provide a fortune to the user after asking them to choose a few words! To start, we must first load the `fortunes` package.
+The main function of the fortunes package is to provide a fortune to the user after asking them to choose a few words! Or they can choose three words themselves to get a fortune by putting them in the argument. To start, we must first load the `fortunes` package.
 
 ```{r setup}
 library(fortunes)
 ```
 
-When you use the `fortunes()` function to be shown the two different prompts that will ask you to choose from a set of provided words. You have to match the word completely including case and spelling. The function will then provide a fortune based on the final word you have chosen. It does this by seeing if your remainder is equal to zero or not and then assigning a certain part of the data set that it will randomly choose a fortune string from. 
+When you use the `fortunes()` function to be shown the two different prompts that will ask you to choose from a set of provided words. You have to match the word completely including case and spelling. The function will then provide a fortune based on the final word you have chosen. It does this by seeing if your word's length divided by two's remainder is equal to zero or not and then assigning a certain part of the data set that it will randomly choose a fortune string from. 
 
 ```{r}
 fortunes()
 ```
+
+The alternative method is to select three words yourself. The function will use your last word's length divided by two's remainder is equal to zero or not and then assigning a certain part of the data set that it will randomly choose a fortune string from. Overall, it's very similar to the above method. For example, lets use the words hello, bye, and hola!
+
+```{r}
+#fortunes("hello", "bye", "hola")
+```
+
 
 ## Fortunes Data 
 
