@@ -6,6 +6,13 @@
 \usage{
 fortunes(fortuney_words = NULL, awesome_words = NULL, evil_words = NULL)
 }
+\arguments{
+\item{fortuney_words}{description}
+
+\item{awesome_words}{description}
+
+\item{evil_words}{description}
+}
 \value{
 A string that contains your fortune
 }

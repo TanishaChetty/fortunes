@@ -1,6 +1,12 @@
+#' @importFrom utils globalVariables
+utils::globalVariables("fortune_data")
+
 #' @title Fortune Teller
 #' @description
 #' This function has no function argument. Call the function and follow the interactive instructions to get a fortune.
+#' @param fortuney_words description
+#' @param awesome_words description
+#' @param evil_words description
 #' @importFrom stringr str_length
 #' @returns A string that contains your fortune
 #' @examples
