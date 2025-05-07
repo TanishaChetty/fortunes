@@ -21,21 +21,23 @@ pak::pak("TanishaChetty/fortunes")
 
 ## Usage
 
-When using the `fortunes()` function, make sure to **not** add an
-argument. An argument is unneeded and will throw an error! The function
-will give you two prompts one after another in which you will select a
-word out of those provided for both of them. Make note that it is case
-sensitive. From there, the function will give you a fortune from the
-built-in data set `fortunes`. All you need to do to properly run the
-function is shown below:
+When using the `fortunes()` function an argument is unneeded, but is an
+option! Without an argument, the function will give you three prompts
+one after another in which you will select a word out of those provided
+for both of them. Make note that it is case sensitive. From there, the
+function will give you a fortune from the built-in data set `fortunes`.
+All you need to do to properly run the function is shown below:
 
 ``` r
 library(fortunes)
 fortunes()
-#> GET YOUR FORTUNE TOLD!!! Enter one of the following
-#>                  words: luck, treasure, omen, destiny... 
-#> Enter one of the following words:
-#>                       sparkle, unicorn, glitter, rainbow...
-#> Enter one of the following words:
-#>                       sparkle, unicorn, glitter, rainbow...
+#> GET YOUR FORTUNE TOLD!!! Enter one of the following words: luck, treasure, omen, destiny...
+#> Error in fortunes(): Woah! Try one of the words listed above maybe...
+```
+
+If you wish to use your own words you can do the following:
+
+``` r
+# library(fortunes)
+# fortunes(fortuney_words = "lucky", awesome_words = "rad", evil_words = "naughty")
 ```
