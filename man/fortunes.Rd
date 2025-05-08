@@ -7,18 +7,19 @@
 fortunes(fortuney_words = NULL, awesome_words = NULL, evil_words = NULL)
 }
 \arguments{
-\item{fortuney_words}{A word that is related to fortunes.}
+\item{fortuney_words}{A word that is related to fortunes: luck, treasure, omen, destiny.}
 
-\item{awesome_words}{A word that is related to awesomeness.}
+\item{awesome_words}{A word that is related to awesomeness: sparkle, unicorn, glitter, rainbow.}
 
-\item{evil_words}{A word that is relate to evilness.}
+\item{evil_words}{A word that is relate to evilness: fire, brimstone, purgatory, damnation.}
 }
 \value{
 A string that contains your fortune
 }
 \description{
 This function doesn't need a function argument. Call the function and follow the interactive
-instructions to get a fortune. If you want to use arguments you can choose up to three words.
+instructions to get a fortune. If you want to use arguments you can choose up to three words
+from our lists.
 }
 \examples{
 fortunes(fortuney_words = "luck", awesome_words = "sparkle", evil_words = "fire")
