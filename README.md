@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of fortunes is for the user to select a word out of the
+The goal of fortunes is for the user to select three words out of the
 provided selections and then receive a fortune.
 
 ## Installation
@@ -35,9 +35,11 @@ fortunes()
 #> Error in fortunes(): Woah! Try one of the words listed above maybe...
 ```
 
-If you wish to use your own words you can do the following:
+If you wish to choose the words from the lists and put them into the
+argument yourself you can do the following:
 
 ``` r
-# library(fortunes)
-# fortunes(fortuney_words = "lucky", awesome_words = "rad", evil_words = "naughty")
+library(fortunes)
+fortunes(fortuney_words = "luck", awesome_words = "sparkle", evil_words = "brimstone")
+#> [1] "The greatest risk is not taking one."
 ```
