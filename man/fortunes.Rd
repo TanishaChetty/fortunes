@@ -11,7 +11,7 @@ fortunes(fortuney_words = NULL, awesome_words = NULL, evil_words = NULL)
 
 \item{awesome_words}{A word that is related to awesomeness: sparkle, unicorn, glitter, rainbow.}
 
-\item{evil_words}{A word that is relate to evilness: fire, brimstone, purgatory, damnation.}
+\item{evil_words}{A word that is related to evilness: fire, brimstone, purgatory, damnation.}
 }
 \value{
 A string that contains your fortune

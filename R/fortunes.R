@@ -5,7 +5,7 @@
 #' from our lists.
 #' @param fortuney_words A word that is related to fortunes: luck, treasure, omen, destiny.
 #' @param awesome_words A word that is related to awesomeness: sparkle, unicorn, glitter, rainbow.
-#' @param evil_words A word that is relate to evilness: fire, brimstone, purgatory, damnation.
+#' @param evil_words A word that is related to evilness: fire, brimstone, purgatory, damnation.
 #' @importFrom stringr str_length
 #' @returns A string that contains your fortune
 #' @examples
